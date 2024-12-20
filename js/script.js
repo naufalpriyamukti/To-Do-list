@@ -53,3 +53,11 @@ function newElement() {
     }
   }
 }
+
+window.onload = function() {
+  localStorag.setItemtById("myUL".appendChild(li).val());
+  
+}
+
+var name = localStorage.getItemById("myUL").appendChild(li).val();
+console.log(history); //  To print the value of localStorage variable name
